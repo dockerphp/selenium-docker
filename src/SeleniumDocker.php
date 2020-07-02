@@ -5,7 +5,7 @@
  * created on: 01/07/2020 - 18:55
  */
 
-namespace Bigit\SeleniumMachine;
+namespace DockerPhp\SeleniumMachine;
 
 
 use Spatie\Docker\DockerContainer;

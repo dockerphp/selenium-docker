@@ -1,7 +1,7 @@
 <?php
-namespace Bigit\SeleniumMachine;
+namespace DockerPhp\SeleniumMachine;
 
-use Bigit\SeleniumMachine\Exceptions\CouldNotStopDockerContainer;
+use DockerPhp\SeleniumMachine\Exceptions\CouldNotStopDockerContainer;
 use Spatie\Docker\DockerContainerInstance;
 use Spatie\Docker\Exceptions\CouldNotStartDockerContainer;
 use Spatie\Ssh\Ssh;

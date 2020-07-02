@@ -1,5 +1,5 @@
 {
-    "name": "bigit/selenium-machine",
+    "name": "dockerphp/selenium-machine",
     "description": "Create latest selenium docker on any host.",
     "type": "library",
     "require": {
@@ -9,19 +9,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Bigit",
+            "name": "DockerPhp",
             "email": "netwillbig@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Bigit\\SeleniumMachine\\": "src/"
+            "DockerPhp\\SeleniumMachine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bigit\\SeleniumMachine\\Tests\\": "tests"
+            "DockerPhp\\SeleniumMachine\\Tests\\": "tests"
         }
     },
     "require-dev": {

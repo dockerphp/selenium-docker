@@ -1,9 +1,9 @@
 <?php
-namespace Bigit\SeleniumMachine\Tests;
+namespace DockerPhp\SeleniumMachine\Tests;
 
-use Bigit\SeleniumMachine\Machine;
-use Bigit\SeleniumMachine\SeleniumDocker;
-use Bigit\SeleniumMachine\SeleniumHost;
+use DockerPhp\SeleniumMachine\Machine;
+use DockerPhp\SeleniumMachine\SeleniumDocker;
+use DockerPhp\SeleniumMachine\SeleniumHost;
 use PHPUnit\Framework\TestCase;
 use Spatie\Docker\DockerContainer;
 use Spatie\Docker\DockerContainerInstance;

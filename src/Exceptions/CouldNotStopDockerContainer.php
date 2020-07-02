@@ -5,10 +5,10 @@
  * created on: 02/07/2020 - 0:14
  */
 
-namespace Bigit\SeleniumMachine\Exceptions;
+namespace DockerPhp\SeleniumMachine\Exceptions;
 
 
-use Bigit\SeleniumMachine\SeleniumDocker;
+use DockerPhp\SeleniumMachine\SeleniumDocker;
 use Symfony\Component\Process\Process;
 
 class CouldNotStopDockerContainer extends \Exception
