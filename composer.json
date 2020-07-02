@@ -1,0 +1,30 @@
+{
+    "name": "bigit/selenium-machine",
+    "description": "Create latest selenium docker on any host.",
+    "type": "library",
+    "require": {
+        "spatie/ssh": "^1.4",
+        "spatie/docker": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bigit",
+            "email": "netwillbig@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Bigit\\SeleniumMachine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bigit\\SeleniumMachine\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
